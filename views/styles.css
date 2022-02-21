@@ -1,0 +1,130 @@
+body {
+    font-family: 'Source Sans Pro', serif;
+}
+
+.display-lg {
+    font-size: 120px;
+    font-weight: 900;
+}
+
+@media (max-width: 684px) {
+    .display-lg {
+        font-size: 61px;
+    }
+}
+
+.container-md {
+    max-width: 1400px;
+}
+
+.px-6 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.mr-10 {
+    margin-right: 5rem;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.pt-grande {
+    padding-top: 170px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.w-sb {
+    width: 31.5%;
+}
+
+.opacity-50 {
+    opacity: 50%;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #61D85E !important;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+button:hover, button:active, a:hover, a:active {
+    opacity: 0.9;
+}
+
+header .bg-hero {
+    background-image: url("/images/hero_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.navbar-brand {
+    font-family: 'Coiny', serif;
+}
+
+.font-coiny {
+    font-family: 'Coiny', serif;
+}
+
+.navbar-toggler .toggler-example {
+    cursor: pointer;
+}
+
+.color-darkBlue {
+    color: #071629;
+}
+
+.bg-limeGreen {
+    background-color: #61D85E;
+}
+
+.bg-teal {
+   background-color: #5CB49A;
+}
+
+.bg-yellow {
+    background-color: #ffff66;
+}
+
+.bg-db {
+    background-color: #071629;
+}
+
+@media (max-width: 576px) {
+    .cara-cust {
+        margin-top: 25px;
+    }
+}
+
+.cust-card {
+    max-width: 255px;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+#oddParagraph {
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+@media (max-width: 790px) {
+    #hero-span {
+        background-color:rgba(255, 255, 255, 0.4);
+    }
+}

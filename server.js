@@ -16,8 +16,8 @@ db.once('open', () => console.log('Connected to Database'))
 // setup server to use json
 app.use(express.json())
 
-const sportsCarRouter = require('./routes/cars')
-app.use('/cars', sportsCarRouter)
+const subscribersRouter = require('./routes/subscribers')
+app.use('/subscribers', subscribersRouter)
 
 
 // URL is 'localhost:3000/cars'. Anything with this url or anything like 'localhost:3000/cars/anything' goes into the sportsCarRouter
