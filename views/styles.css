@@ -65,7 +65,7 @@ button:hover, button:active, a:hover, a:active {
 }
 
 header .bg-hero {
-    background-image: url("/images/hero_background.jpg");
+    background-image: url("./images/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,12 +92,16 @@ header .bg-hero {
     background-color: #61D85E;
 }
 
-.bg-teal {
-   background-color: #5CB49A;
+.bg-blue {
+   background-color: #1E90FF;
 }
 
 .bg-yellow {
     background-color: #ffff66;
+}
+
+.color-black {
+    color: 	#000000;
 }
 
 .bg-db {
