@@ -1,4 +1,7 @@
-# Tasks
+# CUSTOM API FROM SCRATCH
+
+
+## Tasks
 ### 0. Project Proposal
 
 Every great project starts with the design phase. For your application revolving around this theme, create your design documents that lay out what you and your team will build together. You should expect to spend about 1 day or less designing your application before starting on the implementation.
