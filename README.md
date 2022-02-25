@@ -67,23 +67,25 @@ The blog post must be at least 1200 words long. Only one writeup is necessary fo
 In this project, the "authorization" directory contains a simple, secure Node.js user authentication system. The "pagination" directory contains pagination with Node.js.
 In this [blog](https://docs.google.com/document/d/17dn3tvCpfdYbil0Uc-eQ51QSFmiadGk10McGus3nV84/edit?usp=sharing) you can follow along the process and test it yourself in your own terminal.
 
-### Download the REST Client extension in VSCode
+### 1. Download the REST Client extension in VSCode
 * With this, you can send HTTP requests and view the responses directly from Visual Studio Code. Its functionality is similar to Postman.
 
-### Clone the Project
+### 2. Clone the Project
 ```
 git clone https://github.com/breebrowder/custom-api_from-scratch.git
 ```
 
-### Navigate to either "authorization" or "pagination" directory and run
+### 3. Navigate to either "authorization" or "pagination" directory and run
 ```
 npm install
 ```
-### Run the express server and connect to MongoDB
+### 4. Store your own Atlas cluster in the DATABASE_URL environment variable by connecting it through a hidden ```.env``` file
+
+### 5. Run the express server and connect to MongoDB
 ```
 npm run startDev
 ```
-### Read along and follow steps for testing here
+### 6. Read along and follow steps for testing here
 [Custom API Blog Post](https://docs.google.com/document/d/17dn3tvCpfdYbil0Uc-eQ51QSFmiadGk10McGus3nV84/edit?usp=sharing)
 
 ##### Note: You may also view the client-side in VSCode with the Live Server extension by navigating into the "views" directory. The website was not created with UI or good design intentions in mind. It was solely created to implement jQuery and for learning purposes only.
