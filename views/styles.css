@@ -132,3 +132,51 @@ header .bg-hero {
         background-color:rgba(255, 255, 255, 0.4);
     }
 }
+
+
+
+
+body {
+    text-align: center;
+}
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #2b2b2b;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'SourceSemibold';
+    padding: 1.5rem 2.5rem;
+    margin: 4rem;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    opacity: 0.9;
+}
+
+/* CONTACT */
+
+.contact-us h1 {
+    color: black;
+}
+
+.info {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+ }
+ 
+ ::placeholder {
+     color: #071629;
+     font-family: 'SourceSemibold';
+ }

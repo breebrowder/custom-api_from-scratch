@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 //  create variable that pulls in mongoose library
 const mongoose = require('mongoose')
-const User = require('./users')
+const User = require('../pagination/users')
 
 mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 // on error log that there is an error if problem connecting to database

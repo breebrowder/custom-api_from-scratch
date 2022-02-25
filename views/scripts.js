@@ -28,6 +28,37 @@ const quote2 = `<div class="row align-items-center justify-content-center" id="q
                   </div>
                 </div>`;
 
+const quote3 = `<div class="row align-items-center justify-content-center" id="quote1">
+                <div class="row justify-content-around">
+                  <div class="col-sm-2">
+                    <img src="images/car-1.jpg" width="200" height="200" alt="slide">
+                  </div>
+                  <div class="col-sm-6 ml-3 mr-3 float-left text-white" id="testimonial1">
+                  <p>Make: GTR</p>
+                  <p>Model: Alpha 22x</p>
+                  <p>Year: 2019</p>
+                  <p>Color: Green & Black</p>
+                  <p>VIN: 1T3RV4DE0B5112317</p>
+                  </div>
+                </div>
+              </div>`;
+
+const quote4 = `<div class="row align-items-center justify-content-center" id="quote1">
+              <div class="row justify-content-around">
+                <div class="col-sm-2">
+                  <img src="images/car-6.jpg" width="200" height="200" alt="slide">
+                </div>
+                <div class="col-sm-6 ml-3 mr-3 float-left text-white" id="testimonial1">
+                <p>Make: Porsche</p>
+                <p>Model: 118 Boxster</p>
+                <p>Year: 2020</p>
+                <p>Color: Red & Black</p>
+                <p>VIN: 9D1QX4DE0B5106717</p>
+                </div>
+              </div>
+            </div>`;
+
+
 $(document).ready(function () {
   loadQuotes();
   var fiveMinutes = 60 * 5,
@@ -44,5 +75,7 @@ $(document).ready(function () {
 function loadQuotes() {
   $('.single-item').append(quote1);
   $('.single-item').append(quote2);
+  $('.single-item').append(quote3);
+  $('.single-item').append(quote4);
   $('.single-item').slick();
 }
