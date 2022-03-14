@@ -1,5 +1,9 @@
 # CUSTOM API FROM SCRATCH
 
+## Project
+
+1. [Custom API From Scratch](https://intranet.hbtn.io/projects/2697)
+
 
 ## Tasks
 ### 0. Project Proposal
@@ -90,5 +94,21 @@ npm run startDev
 
 ##### Note: You may also view the client-side in VSCode with the Live Server extension by navigating into the "views" directory. The website was not created with UI or good design intentions in mind. It was solely created to implement jQuery and for learning purposes only.
 
-### Contributors
-1. Bree Browder 
+## About the Developer  💬
+
+### Bree Browder
+
+Bree is known for her creativity, organization, and self awareness. Advances in technology have played an integral part in her life. As an empathy-driven problem solver, Bree wants to be at the forefront of design for products, and to continuously design with others in mind, especially those who tend to be marginalized or forgotten.
+
+### Follow Me
+
+- 📁 [LinkedIn](https://www.linkedin.com/in/breebrowder/)
+- ✍️ [Medium](https://medium.com/@breebrowder)
+- 🖥️ [Portfolio Website](https://breebrowder.github.io)
+
+### Email Me
+📩: browder.bree@gmail.com
+
+
+#### Please Note: Some links may be internal and inaccessible to the general public outside of Holberton School students.
+
