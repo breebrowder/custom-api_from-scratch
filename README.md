@@ -94,6 +94,9 @@ npm run startDev
 
 ##### Note: You may also view the client-side in VSCode with the Live Server extension by navigating into the "views" directory. The website was not created with UI or good design intentions in mind. It was solely created to implement jQuery and for learning purposes only.
 
+### Contributors
+1. Bree Browder
+
 ## About the Developer  💬
 
 ### Bree Browder
